@@ -1,0 +1,93 @@
+body, input {
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif
+}
+
+table, tr, td, th {
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+tr {
+  background-color: #fff;
+}
+
+td {
+  width: 100px;
+  height: 20px;
+}
+
+table {
+  margin: auto;
+  width: 75%;
+}
+
+table input {
+  width: 80px;
+  height: 15px;
+  border: none;
+}
+
+th {
+  font-weight: bold;  
+}
+
+td {
+  border: 1px solid #000; 
+}
+
+.display {
+  background-color: #fff;
+}
+
+.edit {
+  background-color: #ff0;
+}
+
+table input:disabled {
+  color: #000;
+}
+
+table input.display {
+  display: none;
+}
+
+table input.edit {
+  display: inline;
+}
+
+table label.display {
+  display: inline;
+}
+
+table label.edit {
+  display: none;
+}
+
+#paging {
+  text-align: center;
+  float: left;
+}
+
+#previousPage {
+  display: none;  
+}
+
+#nextPage {
+  display: none;  
+}
+
+#resizeTable {
+  text-align: center;
+  float: right;
+}
+
+#removeRow {
+  display: none;  
+}
+
+#addRow {
+  display: inline;  
+}
+
+
